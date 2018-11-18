@@ -1,4 +1,4 @@
-package cn.lsd.security.Service;
+package cn.lsd.security.service;
 
 import cn.lsd.security.dao.SysUserRepository;
 import cn.lsd.security.domain.entity.SysUser;

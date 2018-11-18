@@ -1,6 +1,6 @@
 package cn.lsd.security.config;
 
-import cn.lsd.security.Service.CustomUserService;
+import cn.lsd.security.service.CustomUserService;
 import cn.lsd.security.properties.GlobalProperties;
 import cn.lsd.security.properties.SecurityConstants;
 import org.springframework.beans.factory.annotation.Autowired;

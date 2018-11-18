@@ -1,0 +1,21 @@
+server:
+  port: 8060
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sb_security?useSSL=false&autoReconnect=true&tinyInt1isBit=false&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+logging:
+  level:
+    ROOT: INFO
+    cn:
+      lsd: DEBUG
+  file: /home/lsd/security.log
+
