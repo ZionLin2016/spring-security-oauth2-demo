@@ -1,0 +1,14 @@
+server:
+  port: 8061
+
+spring:
+  redis:
+    host: localhost
+    database: 0
+
+logging:
+  level:
+    ROOT: INFO
+    cn:
+      lsd: DEBUG
+  file: /home/lsd/oauth.log
